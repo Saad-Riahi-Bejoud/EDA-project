@@ -26,6 +26,19 @@ def load_credentials(file_path='credentials.yaml'):
         credentials = yaml.safe_load(file)
     return credentials
 
+def load_local_data(file_path='loan_payments_data.csv'):
+    # Load data from a local CSV file into a Pandas DataFrame
+    data = pd.read_csv(file_path)
+
+    # Print the shape of the data
+    print("Data Shape:", data.shape)
+
+    # Print a sample of the data
+    print("Sample Data:")
+    print(data.head())
+
+    return data
+
 if __name__ == "__main__":
     # Load credentials from the YAML file
     credentials = load_credentials()
@@ -38,6 +51,6 @@ if __name__ == "__main__":
 
     # Save the extracted data locally in CSV format
     db_connector.save_data_local(data, 'loan_payments_data.csv')
-    
 
-    print("Script executed successfully!")
+    # Load locally stored data into a Pandas DataFrame
+    local_data = load_local_data()
