@@ -3,9 +3,7 @@
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
-- [Usage](#usage)
-- [File Structure](#file-structure)
-- [License](#license)
+- [File Modules](#file-modules)
 
 ## Description
 As an aspiring data analyst and recent biochemistry graduate with a 2.1, I am currently enrolled in the Aicore program, where I am actively honing my skills in practical applications of AI and Data. My goal for this project is to conduct a comprehensive Exploratory Data Analysis (EDA) on the loan portfolio of a significant financial institution.
@@ -38,4 +36,9 @@ Expected Impact:
 By the end of this project, I anticipate delivering a robust Exploratory Data Analysis that not only uncovers valuable insights within the loan portfolio data but also serves as a foundation for improved decision-making processes. My efforts aim to contribute significantly to the business's ability to manage loans effectively, enhance performance, and optimize profitability.
 
 ## Installation
-...
+pip install -r requirements.txt
+## File Modules
+1. data_transform.py provides methods to convert date, numeric, and categorical columns in a given DataFrame while also removing excess symbols from specified columns. It facilitates comprehensive data preprocessing for improved analysis and modeling
+2. eda_classes.py offers a method to visualize null values in a DataFrame using a heatmap. It provides functions to check, drop columns, and impute null values in a DataFrame, with options for different imputation strategies for numeric and non-numeric columns.
+3. eda_skewed.py contains methods for identifying and reducing skewness in numeric columns, removing outliers, and saving a copy of the DataFrame to a CSV file. Also includes functions for visualizing outliers, skewness, data transformations, and creating a pair plot of the data.
+4. data_frame_info.py provides methods for retrieving information about the DataFrame, including data types of columns, statistical values, the count of distinct values for categorical columns, the shape of the DataFrame, the count of null values, and the percentage of null values for each column.
