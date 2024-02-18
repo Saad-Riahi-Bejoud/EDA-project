@@ -44,12 +44,10 @@ Decision Support System: Develop a decision support system that empowers the bus
 
 Here are some examples of the visualization produced: 
 ![eda.1](Images/eda.1.PNG)
+
 ![eda.0](Images/eda.0.PNG)
+
 ![eda.2](Images/eda.2.PNG)
-![eda.3](Images/eda.3.PNG)
-![eda.5](Images/eda.5.PNG)
-![eda.7](Images/eda.7.PNG)
-![eda.6](Images/eda.6.PNG)
 
 Expected Impact:
 By the end of this project, I anticipate delivering a robust Exploratory Data Analysis that not only uncovers valuable insights within the loan portfolio data but also serves as a foundation for improved decision-making processes. My efforts aim to contribute significantly to the business's ability to manage loans effectively, enhance performance, and optimize profitability.
