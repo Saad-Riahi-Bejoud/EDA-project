@@ -23,15 +23,34 @@ Project Workflow:
 The project involves the following key steps, which I will personally oversee:
 
 Data Collection: Gather loan portfolio data from the financial institution's database.
+
 Data Exploration: Perform initial exploration of the data to understand its structure, quality, and characteristics.
+
 Statistical Analysis: Utilize statistical techniques to analyze key metrics, identify trends, and assess risk factors.
+
 Data Visualization: Create visualizations to effectively communicate insights and patterns discovered during the analysis.
+
 Outlier Handling: Address outliers in the data to ensure robust and accurate analysis.
+
 Data Skewness Correction: Normalize data skewness to enhance the reliability of statistical inferences.
+
 ML Algorithm Preparation: Prepare the data for Machine Learning algorithms by optimizing features and addressing data intricacies.
+
 Payment Forecasting: Visualize future payments to provide a predictive understanding of the loan portfolio's financial trajectory.
+
 Correlation Analysis: Explore correlations between user data parameters and loan payment outcomes.
+
 Decision Support System: Develop a decision support system that empowers the business with actionable insights for loan approvals, pricing, and risk management.
+
+Here are some examples of the visualization produced: 
+![eda.1](Images/eda.1.PNG)
+![eda.0](Images/eda.0.PNG)
+![eda.2](Images/eda.2.PNG)
+![eda.3](Images/eda.3.PNG)
+![eda.5](Images/eda.5.PNG)
+![eda.7](Images/eda.7.PNG)
+![eda.6](Images/eda.6.PNG)
+
 Expected Impact:
 By the end of this project, I anticipate delivering a robust Exploratory Data Analysis that not only uncovers valuable insights within the loan portfolio data but also serves as a foundation for improved decision-making processes. My efforts aim to contribute significantly to the business's ability to manage loans effectively, enhance performance, and optimize profitability.
 
